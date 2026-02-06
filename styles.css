@@ -1,10 +1,17 @@
-
-/* Your CSS Code here. */
 .questions {
     background-color: #f8fffe;
     height: 50px;
     margin-top: 20px;
+    /* Reset default blockquote margins to ensure test case accuracy */
+    margin-left: 0; 
+    margin-right: 0;
+    margin-bottom: 0;
     padding: 15px;
     max-width: 600px;
     border-left: 8px solid green;
+}
+
+/* Ensure the paragraph inside doesn't add extra height */
+.questions p {
+    margin: 0;
 }
